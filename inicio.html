@@ -92,7 +92,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Cantata+One&family=Ledger&family=Rozha+One&family=Suranna&family=Updock&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
 
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 
+<script type="text/javascript">
+    //load jQuery
+    google.load("jquery", "1.7.1");
+
+    //Google Fonts
+    google.load("webfont", "1");
+
+    google.setOnLoadCallback(function() {
+        WebFont.load({
+            google: {
+              families: [ 'Lobster+Two:700italic,700,400italic,400', 'Alegreya:400,400italic,700' ]
+            }
+        });
+    });
+    </script>
+    
     <title>NURIA BETTYNA | ¡MIS XV AÑOS!</title>
     <link rel="shortcut icon" href="img/iniciales1.png"/>
 </head>
