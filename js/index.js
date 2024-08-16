@@ -589,8 +589,8 @@ function RogelioNavarrete() {
 function HilarioTrujano() {
     window.open("pases/HilarioTrujano.html", "_self");        
 }
-function AlejandroAvila() {
-    window.open("pases/AlejandroAvila.html", "_self");        
+function AlejandroAvila2() {
+    window.open("pases/AlejandroAvila2.html", "_self");        
 }
 function YerettAvila() {
     window.open("pases/YerettAvila.html", "_self");        
@@ -681,7 +681,18 @@ function BerthaAvila() {
 function AlejandroAvila() {
     window.open("pases/AlejandroAvila.html", "_self");        
 }
-
+function DanielArreolaSanchez() {
+    window.open("pases/DanielArreolaSanchez.html", "_self");        
+}
+function Unapersona() {
+    window.open("pases/1persona.html", "_self");        
+}
+function Dospersonas() {
+    window.open("pases/2personas.html", "_self");        
+}
+function Trespersonas() {
+    window.open("pases/3personas.html", "_self");        
+}
 function sinNombre() {
     window.open("inicio.html", "_self");        
 }
@@ -1185,7 +1196,7 @@ function copiarRogelioNavarrete(){
   destino.focus();
   document.execCommand('paste');
 }
- function copiarAlejandroAvila(){
+ function copiarAlejandroAvila2(){
   var origen = document.getElementById('target36');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
@@ -1596,7 +1607,62 @@ function copiarAlejandroAvila(){
   destino.focus();
   document.execCommand('paste');
 }
-
+function copiarDanielArreolaSanchez(){
+  var origen = document.getElementById('target66');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+function copiar1persona(){
+  var origen = document.getElementById('target67');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+function copiar2personas(){
+  var origen = document.getElementById('target68');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+function copiar3personas(){
+  var origen = document.getElementById('target69');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
 function copiarsinNombre(){
   var origen = document.getElementById('target61');
   var destino = document.getElementById('target10');
