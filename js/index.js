@@ -1594,7 +1594,7 @@ function copiarBerthaAvila(){
   document.execCommand('paste');
 }
 function copiarAlejandroAvila(){
-  var origen = document.getElementById('target65');
+  var origen = document.getElementById('target36');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
